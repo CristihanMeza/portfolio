@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="CSS/Styles.css">
+    <link rel="stylesheet" href="CSS/lightbox.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;1,100&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+    <script src="Js/dat.gui.min.js"></script>
+</head>
+<body>
+    <div class="contenedor-loader">
+        <div class="loader"></div>
+    </div>
+    <header class="no-seleccionable">
+        <div class="Title-text"><h1><span class="typed"></span></h1></div>
+        <canvas></canvas>
+    </header>
+    <div class="all-proyects">
+        <div class="proyect">
+            <div class="title-proyect">Solar Tracker</div>
+            <div class="description">
+                Realice un solar tracker el cuál por medio de fotorresistencias 
+                captaba la orientación de la luz y se movía de acuerdo a la dirección de la luz,
+                también contaba con un movimiento manual por medio de un joystick.
+                Se diseñó por medio de Fusión 360 y se programó usando arduino.
+            </div>
+        </div>
+        <div class="proyect">
+            <div class="title-proyect">Sensor de Gas Carbónico</div>
+            <div class="description">
+                Como proyecto de ExpoAndes junto a mi grupo presentamos una herramienta de ventilación
+                controlada por demanda, la cuál funcionaba con un sensor de temperatura y humedad, y un sensor 
+                de gas carbónico, a partir de ello activaba un ventilador y humidificador.
+            </div>
+        </div>
+        <div class="proyect">
+            <div class="title-proyect">Seguidor de un objeto</div>
+            <div class="description">
+                Realice el prototipo de un carro seguidor de objetos, el cuál por medio de un sensor ultrasónico
+                determinaba si algún objeto se encontraba al frente y lo seguía, de lo contrario giraba hasta encontrar un objeto
+                al frente. Se usó un motor shield para el uso de los motores.
+            </div>
+        </div>
+    </div>
+    <div class="gallery-container">
+        <div class="gallery-card">
+            <a href="images/image_2.png" data-lightbox="roadtrip"><img src="images/image_2.png" alt=""></a>
+        </div>
+        <div class="gallery-card">
+            <a href="images/image_3.jpeg" data-lightbox="roadtrip"><img src="images/image_3.jpeg" alt=""></a>
+        </div>
+        <div class="gallery-card">
+            <a href="images/image_5.jpeg" data-lightbox="roadtrip"><img src="images/image_5.jpeg" alt=""></a>
+        </div>
+        <div class="gallery-card">
+            <a href="images/image_1.jpg" data-lightbox="roadtrip"><img src="images/image_1.jpg" alt=""></a>
+        </div>
+        <div class="gallery-card">
+            <a href="images/image_4.jpeg" data-lightbox="roadtrip"><img src="images/image_4.jpeg" alt=""></a>
+        </div>
+        <div class="gallery-card">
+            <a href="images/image_6.jpeg" data-lightbox="roadtrip"><img src="images/image_6.jpeg" alt=""></a>
+        </div>
+    </div>
+    <script>
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', 'UA-105392568-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <script src="Js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="Js/preloader.js"></script>
+    <script src="Js/lightbox-plus-jquery.min.js"></script>
+    <script src="Js/lightbox.min.js"></script>
+</body>
+</html>
